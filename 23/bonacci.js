@@ -1,6 +1,7 @@
 // bonacci.js is for implementing fibonacci according to TDD
-// Checks if a symbol (element) is in a string
 
+
+// Checks if a symbol (element) is in a string
 function contains(string, element){
     for(i=0, l=string.length; i<l; i++){
         if (string[i] == element){
@@ -10,7 +11,7 @@ function contains(string, element){
     }
 }
 
-// checks to see if a period is in the string but could accomodate more symbols.
+// checks to see if a period is in the string but could accommodate more symbols.
 function verify_string(string){
     SYMBOLS = ['.']
     for (i=0, j=SYMBOLS.length; i<j; i++){
