@@ -1,0 +1,14 @@
+{
+  "name": "p23",
+  "version": "1.0.0",
+  "description": "just_learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mp",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
