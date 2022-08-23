@@ -2,15 +2,7 @@ const fib = require('./bonacci').fib
 const contains = require('./bonacci').contains
 const verify_string = require('./bonacci').verify_string
 
-/*
-def compare(a,b){
-    for (i = 0, i<b.length, i++){
-         if (a[i] != b[i]){
-            return false;
-         }
-    return true;
-}
-*/
+
 test('bonacci returns an int',() => {
     expect(typeof fib(0)).toBe('number')
 });
@@ -28,7 +20,6 @@ test('bonacci returns 1 for input 2',() => {
     expect(fib(2)).toEqual(1)
 });
 
-// Write a test that can run on a list of input/output pairs
 
 // This worked initially with i as the loop variable
 // then at some point I added the nested func to the test
